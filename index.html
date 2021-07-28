@@ -12,46 +12,46 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap"
         rel="stylesheet">
-        <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Prueba - Startup Trekk In</title>
 </head>
 
 <body>
-    <nav>
-        <div>
-            <img src="" alt="">
+    <nav class="navbar">
+        <div class="navbar__logo">
+            <img src="assets/img/Logo.svg" alt="Logo">
         </div>
-        <div>
-            <ul>
-                <li>
+        <div class="navbar__Container">
+            <ul class="navbar__list--izquierda">
+                <li class="navbar__item">
                     <a href="#">Acerca de</a>
                 </li>
-                <li>
+                <li class="navbar__item">
                     <a href="#">Cursos</a>
                 </li>
-                <li>
+                <li class="navbar__item">
                     <a href="#">Precios</a>
                 </li>
             </ul>
-            <ul>
-                <li>
+            <ul class="navbar__list--derecha">
+                <li class="navbar__item">
                     <a href="#">Iniciar Sesión</a>
                 </li>
-                <li>
-                    <a href="#">Regístrate</a>
+                <li class="navbar__item">
+                    <a href="#" class="button">Regístrate</a>
                 </li>
             </ul>
-            <label for="menu"><i class="fas fa-bars"></i></label>
+            <label for="menu" class="navbar__menu"><i class="fas fa-bars"></i></label>
         </div>
     </nav>
-    <header>
-        <div>
-            <img src="" alt="hero">
+    <header class="header">
+        <div class="header__img">
+            <img src="assets/img/bg-hero.svg" alt="hero">
         </div>
-        <section>
-            <div>
-                <div>
-                    <h1>Haz Trekking sin parar</h1>
+        <section class="header_description">
+            <div class="row">
+                <div class="col-12 col-sm-6 col-lg-4">
+                    <h1 class="header_titulo">Haz Trekking sin parar</h1>
                     <p>Con Trekk-in te despreocuparás de la estimación de tu viaje, ya
                         que con unos simples pasos podrás definir la mejor ruta a tomar con
                         tus compañeros de expedición.
@@ -60,56 +60,56 @@
             </div>
         </section>
     </header>
-    <main>
-        <section>
-            <h2>Características</h2>
-            <div>
-
-            </div>
-            <div>
-                <div>
-                    <h3>Estadísticas de tu progreso</h3>
-                    <p>
+    <main class="main">
+        <section class="caracteristicas">
+            <h2 class="caracteristicas__titulo">Características</h2>
+            <div class="row caracteristicas__bloque">
+                <div class="caracteristicas__barchart col-12 col-sm-12 col-md-6">
+                </div>
+                <div class="caracteristicas__info col-12 col-sm-12 col-md-6">
+                    <h3 class="caracteristicas__subtitulo">Estadísticas de tu progreso</h3>
+                    <p class="caracteristicas__texto">
                         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem eveniet error doloremque,
                         doloribus
-                        aliquid dolore laboriosam tempora nihil. Quod numquam asperiores neque voluptatum impedit! Optio
+                        aliquid dolore laboriosam tempora nihil. Quod numquam asperiores neque voluptatum impedit!
+                        Optio
                         provident cumque dolorum mollitia eos.
                     </p>
                 </div>
             </div>
         </section>
-        <section>
-            <h2>Precios</h2>
-            <div>
-                <div>
-                    <h3>Trekk-in Free</h3>
-                    <h4>$ 0 / mes</h4>
-                    <hr>
-                    <ul>
-                        <li>Ver mapa creado por usuarios</li>
-                        <li>Conectar con otros usuarios</li>
+        <section class="precios">
+            <h2 class="precios_titulo">Precios</h2>
+            <div class="row precios__tarjeta">
+                <div class="tarjeta col-12 col-sm-12 col-md-6">
+                    <h3 class="tarjeta__titulo">Trekk-in Free</h3>
+                    <h4 class="tarjeta_precio">$ 0 / mes</h4>
+                    <hr class="tarjeta__linea">
+                    <ul class="tarjeta__list">
+                        <li class="tarjeta__item">Ver mapa creado por usuarios</li>
+                        <li class="tarjeta__item">Conectar con otros usuarios</li>
                     </ul>
-                    <hr>
-                    <div>
-                        <button>
+                    <hr class="tarjeta__linea">
+                    <div class="tarjeta__button">
+                        <button class="button button--largo">
                             Obtén Free
                         </button>
                     </div>
                 </div>
-                <div>
-                    <h3>Trekk-in Premium</h3>
-                    <h4>$ 3500 / mes</h4>
-                    <hr>
-                    <ul>
-                        <li>Ver mapa creado por usuarios</li>
-                        <li>Conectar con otros usuarios</li>
-                        <li>Definir mejores rutas</li>
-                        <li>Mapas offline</li>
-                        <li>Integración con otras aplicaciones</li>
+                <div class="tarjeta col-12 col-sm-12 col-md-6">
+                    <h3 class="tarjeta__titulo">Trekk-in Premium</h3>
+                    <h4 class="tarjeta_precio">$ 3500 / mes</h4>
+                    <hr class="tarjeta__linea">
+                    <ul class="tarjeta__list">
+                        <li class="tarjeta__item">Ver mapa creado por usuarios</li>
+                        <li class="tarjeta__item">Conectar con otros usuarios</li>
+                        <li class="tarjeta__item">Definir mejores rutas</li>
+                        <li class="tarjeta__item">Mapas offline</li>
+                        <li class="tarjeta__item">Integración con otras aplicaciones</li>
                     </ul>
-                    <hr>
-                    <div>
-                        <button>
+                    <hr class="tarjeta__linea">
+                    <div class="tarjeta__button">
+                        <button class="button button--largo">
                             Obtén Premiun
                         </button>
                     </div>
@@ -117,19 +117,19 @@
             </div>
         </section>
     </main>
-    <footer>
-        <ul>
-            <li>
+    <footer class="footer">
+        <ul class="footer__list">
+            <li class="footer__item">
                 <a href="#">Legal</a>
             </li>
-            <li>
+            <li class="footer__item">
                 <a href="#">Cookies</a>
             </li>
-            <li>
+            <li class="footer__item">
                 <a href="#">Sobre Anuncios</a>
             </li>
         </ul>
-        <div>
+        <div class="footer__copy">
             <small>&copy; 2018 Trekk-in SPA.</small>
         </div>
     </footer>
