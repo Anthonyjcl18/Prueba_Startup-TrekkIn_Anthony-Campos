@@ -1,0 +1,32 @@
+.footer {
+    display: flex;
+    padding: 3rem;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-between;
+    font-family: $raleway;
+    color: white;
+    background: #221d23;
+
+    &__list {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-items: center;
+        align-content: space-between;
+        list-style: none;
+    }
+
+    &__item {
+        font-size: .8rem;
+        margin: 0 20px;
+        a {
+            text-decoration: none;
+            color: white;
+            &:hover{
+                color: #2ab7ca;
+            }
+        }
+    }
+}
