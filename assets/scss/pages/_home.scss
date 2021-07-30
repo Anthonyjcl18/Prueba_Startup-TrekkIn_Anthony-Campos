@@ -52,3 +52,166 @@
         }
     }
 }
+
+@media (max-width: 576px) {
+    .main {
+        .caracteristicas {
+            text-align: center;
+            margin: 0;
+
+            &__bloque {
+                margin: 10px;
+            }
+
+            &__barchart {
+                margin-left: 0;
+                margin-top: 10px;
+            }
+
+            &__info {
+                width: 100%;
+                padding: 10px;
+            }
+
+            &__titulo {
+                margin: 20px 0;
+            }
+
+            &__texto {
+                margin-top: 20px;
+            }
+        }
+
+        .precios {
+            background-position: top center;
+            width: 100%;
+            height: 100%;
+            padding-bottom: 100px;
+            margin-top: -100px;
+
+            &__tarjeta {
+                padding: 0;
+            }
+
+            &__titulo {
+                padding-top: 220px;
+            }
+        }
+    }
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    .main {
+        .caracteristicas {
+            text-align: center;
+            margin: 0;
+
+            &__bloque {
+                margin: 10px;
+            }
+
+            &__barchart {
+                margin-left: 0;
+                margin-top: 10px;
+            }
+
+            &__info {
+                width: 100%;
+                padding: 10px;
+            }
+
+            &__titulo {
+                margin: 20px 0;
+            }
+
+            &__texto {
+                margin-top: 20px;
+            }
+        }
+
+        .precios {
+            background-position: top center;
+            width: 100%;
+            height: 100%;
+            padding-bottom: 100px;
+            margin-top: -100px;
+
+            &__tarjeta {
+                padding: 50px;
+            }
+
+            &__titulo {
+                padding-top: 200px;
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .main {
+        .caracteristicas {
+            text-align: center;
+            margin: 0;
+
+            &__bloque {
+                margin: 10px;
+            }
+
+            &__barchart {
+                margin-left: 0;
+                margin-top: 10px;
+            }
+
+            &__info {
+                width: 100%;
+                padding: 10px;
+            }
+
+            &__titulo {
+                margin: 20px 0;
+            }
+
+            &__texto {
+                margin-top: 20px;
+            }
+        }
+
+        .precios {
+            background-position: top center;
+            width: 100%;
+            height: 100%;
+            padding-bottom: 100px;
+            margin-top: -100px;
+
+            &__tarjeta {
+                padding: 0 100px;
+            }
+
+            &__titulo {
+                padding-top: 200px;
+            }
+        }
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .main {
+        .caracteristicas {
+            &__bloque {
+                margin: 10px;
+            }
+        }
+        
+        .precios {
+            background-position: top center;
+            width: 100%;
+            height: 100%;
+            padding-bottom: 100px;
+            margin-top: -100px;
+
+            &__tarjeta {
+                padding: 0 100px;
+            }
+        }
+    }
+}

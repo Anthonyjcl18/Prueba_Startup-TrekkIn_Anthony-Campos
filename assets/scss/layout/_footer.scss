@@ -30,3 +30,26 @@
         }
     }
 }
+
+@media (max-width: 576px) {
+    .footer {
+        flex-flow: column wrap;
+        justify-content: center;
+        align-content: center;
+
+        &__text {
+            text-align: center;
+        }
+
+        &__list {
+            margin-top: 10px;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-content: center;
+        }
+
+        &__item {
+            margin: 15px 10px;
+        }
+    }
+}
