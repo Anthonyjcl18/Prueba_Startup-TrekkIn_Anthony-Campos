@@ -215,6 +215,7 @@
   background-size: contain;
   background-position: center;
   margin-left: 100px;
+  animation: fadeIn 1.5s ease-in-out infinite alternate;
 }
 .main .caracteristicas__info {
   width: 400px;
@@ -631,6 +632,15 @@
   list-style: none;
   text-decoration: none;
   box-sizing: border-box;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

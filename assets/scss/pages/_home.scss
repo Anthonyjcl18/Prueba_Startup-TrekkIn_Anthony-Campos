@@ -15,7 +15,7 @@
             background-size: contain;
             background-position: center;
             margin-left: 100px;
-            animation: fadeIn ;
+            animation: fadeIn 1.5s ease-in-out infinite alternate;
         }
 
         &__info {
